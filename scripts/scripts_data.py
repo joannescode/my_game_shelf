@@ -10,6 +10,9 @@ def output_db_csv():
         query = """SELECT * FROM games_completed"""
         df = pd.read_sql(query, con)
         df.to_csv("registers.csv", index=False)
-        messagebox.showinfo(title="Downloaded successfully",message="Downloaded table records with success!")
+        messagebox.showinfo(
+            title="Downloaded successfully",
+            message="Downloaded table records with success!",
+        )
     finally:
         con.close()

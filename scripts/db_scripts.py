@@ -53,7 +53,9 @@ def insert_game(name, platform, rating, duration):
         )
 
         con.commit()
-        messagebox.showinfo(title="Registered successfully", message="Game registered successfully!")
+        messagebox.showinfo(
+            title="Registered successfully", message="Game registered successfully!"
+        )
 
     except Exception as e:
         messagebox.showerror(

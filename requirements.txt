@@ -1,9 +1,6 @@
-altgraph==0.17.4
 numpy==2.2.2
 packaging==24.2
 pandas==2.2.3
-pyinstaller==6.11.1
-pyinstaller-hooks-contrib==2025.0
 python-dateutil==2.9.0.post0
 pytz==2024.2
 setuptools==75.8.0
