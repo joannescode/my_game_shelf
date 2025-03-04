@@ -3,16 +3,16 @@ from tkinter import messagebox
 
 
 def _validate_infos(name, platform, rating, duration):
-    """Validação das informações inseridas via interface tkintetr
+    """Validation about information where was inserted through tkinter interface
 
     Args:
-        name (str): nome do jogo a ser registrado
-        platform (str): plataforma em que foi jogado o jogo a ser registrado
-        rating (float): avaliação do jogador referente ao jogo a ser registrado
-        duration (str): tempo de jogo até a conclusão a ser registrado
+        name (str): games name for resgiter
+        platform (str): plataform that was played for register
+        rating (float): rating of player about game for register
+        duration (str): game time of conclusion for register
 
     Returns:
-        (str, float): valores a serem inseridas na tabela do banco de dados
+        (str, float): values for insert in database
     """
     try:
         if name and platform and rating and duration:
@@ -31,16 +31,14 @@ def _validate_infos(name, platform, rating, duration):
 
 
 def insert_game(name, platform, rating, duration):
-    """Inserção das informações dentro do banco de dados
-
+    """Insert informations in database
     Args:
-        name (str): nome do jogo a ser registrado
-        platform (str): plataforma em que foi jogado o jogo a ser registrado
-        rating (float): avaliação do jogador referente ao jogo a ser registrado
-        duration (str): tempo de jogo até a conclusão a ser registrado
+        name (str): games name for resgiter
+        platform (str): plataform that was played for register
+        rating (float): rating of player about game for register
+        duration (str): game time of conclusion for register
     """
     try:
-
         name_validated, platform_validated, rating_validated, duration_validated = (
             _validate_infos(name, platform, rating, duration)
         )

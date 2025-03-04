@@ -1,41 +1,42 @@
 # My Game Shelf
 
-Interface utilizando conexão e interação com SQlite para aprendizado de inserção de dados via código Python.
+Interface for register games where using Tkinter for interact and SQLite3 for storage registers.
 
-## 💻 Guia de uso
+## 💻 Started Guid
 
-As instruções abaixo permitirão que você obtenha uma cópia do projeto para uso, desenvolvimento e ou testes.
+The guide down below allow what you obtain a copy from project for use, development or testings.
 
-### 📋 Pré-requisitos
+### 📋 Requirements
 - Python3 
 - Pandas
 - Tkinter
 - SQLite3
-- Ambiente de Desenvolvimento 
-- Conexão com internet
+- Development Environment
+- Conection with Internet
 
 
-### 📥 Instalação da ferramenta
-Basta passar o comando abaixo em seu terminal dentro de uma pasta de sua escolha.
+### 📥 Download Tool
+
+Type command in your terminal and clone this tool.
 
 `git clone git@github.com:joannescode/my_game_shelf.git`
 
-Ou se preferir, baixar o repositório como .zip.
+Or get tool in zip through download direct.
 
-### 🤖 Executando a ferramenta
+### 🤖 Running Tool
 Siga o passo a passo abaixo para executar o main.py corretamente:
 
-- Iniciar um ambiente virtual com venv ou conda
-- Ativar o ambiente virtual/iniciar o python do ambiente virtual
-- Instalar as dependências necessárias de requirements.txt com `pip install -r requirements.txt`
-- Executar o game_shelf.py via terminal ou dentro do ambiente de desenvolvimento
-- Preencher as entradas necessárias dentro da interface, sendo nome do jogo, avaliação, tempo de jogo e plataforma jogada. Clicar no botão "Register Game" e assim seu registro será enviado ao banco de dados.
-- Para baixar os registros preenchidos anteriormente basta clicar no botão "Download Registers in CSV" e será gerado um csv contendo os registros.
+- Create a virtual environment with venv or conda
+- Start your virtual environment 
+- Install the necessary dependencies from requirements.txt with `pip install -r requirements.txt`
+- Run game_shelf.py throught of terminal or with your development environment
+- Send inputs necessary through interface, games name, rating, time duration and platform. Click on button for register game, so your register is send for database.
+- For download your registers, click on button for download registers in csv, and with this your obtain a csv registers.
 
-*Demonstração da ferramenta:*
-![Desmonstração da Ferramenta](<demo/demo.gif>)
+*Demonstration of tool:*
+![Demonstration](<demo/demo.gif>)
 
-### 🛠️ Desenvolvido em/com
+### 🛠️ Building with
 - Python3
 - Tkinter
 - SQLite3
@@ -43,4 +44,4 @@ Siga o passo a passo abaixo para executar o main.py corretamente:
   
 <hr>
 
-*Desenvolvido inicialmente por [joannescode](https://github.com/joannescode) 💻*
+*Initially developed by [joannescode](https://github.com/joannescode) 💻*
