@@ -24,7 +24,7 @@ Type command in your terminal and clone this tool.
 Or get tool in zip through download direct.
 
 ### 🤖 Running Tool
-Siga o passo a passo abaixo para executar o main.py corretamente:
+Follow step by step downbelow for running to main.py:
 
 - Create a virtual environment with venv or conda
 - Start your virtual environment 
