@@ -1,47 +1,46 @@
-# My Game Shelf
+# My Game Shelf (Minha Estante de Jogos)
 
-Interface for register games where using Tkinter for interact and SQLite3 for storage registers.
+Interface para registro de jogos utilizando **Tkinter** para a interação e **SQLite3** para o armazenamento dos registros.
 
-## 💻 Started Guid
+## 💻 Guia de Início
 
-The guide down below allow what you obtain a copy from project for use, development or testings.
+O guia abaixo permite que você obtenha uma cópia do projeto para uso, desenvolvimento ou testes.
 
-### 📋 Requirements
-- Python3 
-- Pandas
-- Tkinter
-- SQLite3
-- Development Environment
-- Conection with Internet
+### 📋 Requisitos
 
+  - Python3
+  - Pandas
+  - Tkinter
+  - SQLite3
+  - Ambiente de Desenvolvimento (IDE)
+  - Conexão com a Internet
 
-### 📥 Download Tool
+### 📥 Baixando a Ferramenta
 
-Type command in your terminal and clone this tool.
+Digite o comando no seu terminal para clonar este repositório:
 
 `git clone git@github.com:joannescode/my_game_shelf.git`
 
-Or get tool in zip through download direct.
+Ou baixe a ferramenta em formato .zip através do download direto.
 
-### 🤖 Running Tool
-Follow step by step downbelow for running to main.py:
+### 🤖 Executando a Ferramenta
 
-- Create a virtual environment with venv or conda
-- Start your virtual environment 
-- Install the necessary dependencies from requirements.txt with `pip install -r requirements.txt`
-- Run game_shelf.py throught of terminal or with your development environment
-- Send inputs necessary through interface, games name, rating, time duration and platform. Click on button for register game, so your register is send for database.
-- For download your registers, click on button for download registers in csv, and with this your obtain a csv registers.
+Siga o passo a passo abaixo para executar o `game_shelf.py`:
 
-*Demonstration of tool:*
-![Demonstration](<demo/demo.gif>)
+  - Crie um ambiente virtual com **venv** ou **conda**.
+  - Ative o seu ambiente virtual.
+  - Instale as dependências necessárias do arquivo `requirements.txt` com o comando: `pip install -r requirements.txt`.
+  - Execute o arquivo `game_shelf.py` através do terminal ou da sua IDE.
+  - Insira os dados necessários pela interface: nome do jogo, nota (rating), tempo de duração e plataforma. Clique no botão de registrar para que as informações sejam enviadas ao banco de dados.
+  - Para baixar seus registros, clique no botão de exportar para obter um arquivo **CSV**.
 
-### 🛠️ Building with
-- Python3
-- Tkinter
-- SQLite3
-- Pandas
-  
-<hr>
+*Demonstração da ferramenta:*
 
-*Initially developed by [joannescode](https://github.com/joannescode) 💻*
+### 🛠️ Construído com
+
+  - Python3
+  - Tkinter
+  - SQLite3
+  - Pandas
+
+*Desenvolvido inicialmente por [joannescode](https://github.com/joannescode) 💻*
